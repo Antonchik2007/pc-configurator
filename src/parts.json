@@ -1,0 +1,298 @@
+{
+    "cpus": [
+      {
+        "name": "Intel Core i9-13900K",
+        "socket": "LGA 1700",
+        "tdp": 125,
+        "integratedGraphics": "Intel UHD Graphics 770",
+        "maxRam": "128GB DDR5",
+        "powerRequirement": 250
+      },
+      {
+        "name": "AMD Ryzen 7 7800X3D",
+        "socket": "AM5",
+        "tdp": 120,
+        "integratedGraphics": "None",
+        "maxRam": "128GB DDR5",
+        "powerRequirement": 230
+      },
+      {
+        "name": "Intel Core i7-13700K",
+        "socket": "LGA 1700",
+        "tdp": 125,
+        "integratedGraphics": "Intel UHD Graphics 770",
+        "maxRam": "128GB DDR5",
+        "powerRequirement": 200
+      },
+      {
+        "name": "AMD Ryzen 5 7600X",
+        "socket": "AM5",
+        "tdp": 105,
+        "integratedGraphics": "AMD Radeon Graphics",
+        "maxRam": "128GB DDR5",
+        "powerRequirement": 180
+      },
+      {
+        "name": "Intel Core i5-12600K",
+        "socket": "LGA 1700",
+        "tdp": 125,
+        "integratedGraphics": "Intel UHD Graphics 770",
+        "maxRam": "128GB DDR5",
+        "powerRequirement": 150
+      }
+    ],
+    "gpus": [
+      {
+        "name": "NVIDIA RTX 4090",
+        "pciInterface": "PCIe 4.0 x16",
+        "length": 336,
+        "powerRequirement": 450,
+        "psuConnector": "3x 8-pin"
+      },
+      {
+        "name": "AMD Radeon RX 7900 XTX",
+        "pciInterface": "PCIe 4.0 x16",
+        "length": 287,
+        "powerRequirement": 355,
+        "psuConnector": "2x 8-pin"
+      },
+      {
+        "name": "NVIDIA RTX 4070 Ti",
+        "pciInterface": "PCIe 4.0 x16",
+        "length": 267,
+        "powerRequirement": 285,
+        "psuConnector": "1x 16-pin"
+      },
+      {
+        "name": "AMD Radeon RX 7800 XT",
+        "pciInterface": "PCIe 4.0 x16",
+        "length": 276,
+        "powerRequirement": 263,
+        "psuConnector": "2x 8-pin"
+      },
+      {
+        "name": "NVIDIA RTX 4060",
+        "pciInterface": "PCIe 4.0 x8",
+        "length": 199,
+        "powerRequirement": 115,
+        "psuConnector": "1x 8-pin"
+      }
+    ],
+    "motherboards": [
+      {
+        "name": "ASUS ROG Strix Z790-E",
+        "socket": "LGA 1700",
+        "chipset": "Z790",
+        "formFactor": "ATX",
+        "maxRam": "128GB DDR5",
+        "storageInterfaces": ["SATA", "M.2 PCIe 4.0"],
+        "pciSlots": ["PCIe 5.0 x16", "PCIe 4.0 x8"]
+      },
+      {
+        "name": "MSI B650 Tomahawk WiFi",
+        "socket": "AM5",
+        "chipset": "B650",
+        "formFactor": "ATX",
+        "maxRam": "128GB DDR5",
+        "storageInterfaces": ["SATA", "M.2 PCIe 5.0"],
+        "pciSlots": ["PCIe 4.0 x16", "PCIe 3.0 x4"]
+      },
+      {
+        "name": "Gigabyte Aorus X670 Elite AX",
+        "socket": "AM5",
+        "chipset": "X670",
+        "formFactor": "ATX",
+        "maxRam": "128GB DDR5",
+        "storageInterfaces": ["SATA", "M.2 PCIe 5.0"],
+        "pciSlots": ["PCIe 5.0 x16", "PCIe 4.0 x8"]
+      },
+      {
+        "name": "ASRock B760M Pro RS",
+        "socket": "LGA 1700",
+        "chipset": "B760",
+        "formFactor": "Micro-ATX",
+        "maxRam": "128GB DDR4",
+        "storageInterfaces": ["SATA", "M.2 PCIe 4.0"],
+        "pciSlots": ["PCIe 4.0 x16", "PCIe 3.0 x4"]
+      },
+      {
+        "name": "ASUS Prime H610M-A",
+        "socket": "LGA 1700",
+        "chipset": "H610",
+        "formFactor": "Micro-ATX",
+        "maxRam": "64GB DDR4",
+        "storageInterfaces": ["SATA", "M.2 PCIe 3.0"],
+        "pciSlots": ["PCIe 4.0 x16"]
+      }
+    ],
+    "psus": [
+      {
+        "name": "Corsair RM1000e",
+        "wattage": 1000,
+        "modular": "Fully Modular",
+        "efficiencyRating": "80+ Gold",
+        "gpuCompatibility": ["RTX 4090", "RX 7900 XTX"]
+      },
+      {
+        "name": "EVGA SuperNOVA 850 G6",
+        "wattage": 850,
+        "modular": "Fully Modular",
+        "efficiencyRating": "80+ Gold",
+        "gpuCompatibility": ["RTX 4070 Ti", "RX 7800 XT"]
+      },
+      {
+        "name": "Seasonic Focus GX-750",
+        "wattage": 750,
+        "modular": "Fully Modular",
+        "efficiencyRating": "80+ Gold",
+        "gpuCompatibility": ["RTX 4060"]
+      },
+      {
+        "name": "Cooler Master MWE 650 V2",
+        "wattage": 650,
+        "modular": "Semi-Modular",
+        "efficiencyRating": "80+ Bronze",
+        "gpuCompatibility": ["RTX 4060"]
+      },
+      {
+        "name": "Thermaltake Smart 500W",
+        "wattage": 500,
+        "modular": "Non-Modular",
+        "efficiencyRating": "80+ White",
+        "gpuCompatibility": ["GTX 1650"]
+      }
+    ],
+    "cases": [
+      {
+        "name": "Lian Li O11 Dynamic EVO",
+        "size": "Mid Tower",
+        "maxGpuLength": 395,
+        "maxCoolerHeight": 167,
+        "maxPsuLength": 220
+      },
+      {
+        "name": "NZXT H510 Flow",
+        "size": "Mid Tower",
+        "maxGpuLength": 381,
+        "maxCoolerHeight": 165,
+        "maxPsuLength": 200
+      },
+      {
+        "name": "Fractal Design Meshify C",
+        "size": "Mid Tower",
+        "maxGpuLength": 315,
+        "maxCoolerHeight": 170,
+        "maxPsuLength": 175
+      },
+      {
+        "name": "Cooler Master NR200P",
+        "size": "Mini-ITX",
+        "maxGpuLength": 330,
+        "maxCoolerHeight": 153,
+        "maxPsuLength": 150
+      },
+      {
+        "name": "Phanteks Eclipse P500A",
+        "size": "Mid Tower",
+        "maxGpuLength": 435,
+        "maxCoolerHeight": 190,
+        "maxPsuLength": 250
+      }
+    ], 
+    "CPU_Coolers": [
+    {
+      "name": "Noctua NH-D15",
+      "type": "Air",
+      "socket_compatibility": ["LGA1700", "LGA1200", "AM4", "AM5"],
+      "max_tdp": "220W"
+    },
+    {
+      "name": "Corsair iCUE H150i ELITE",
+      "type": "Liquid",
+      "radiator_size": "360mm",
+      "socket_compatibility": ["LGA1700", "AM4", "AM5"]
+    },
+    {
+      "name": "be quiet! Dark Rock Pro 4",
+      "type": "Air",
+      "socket_compatibility": ["LGA1700", "LGA1200", "AM4", "AM5"],
+      "max_tdp": "250W"
+    },
+    {
+      "name": "Cooler Master Hyper 212 Black Edition",
+      "type": "Air",
+      "socket_compatibility": ["LGA1700", "LGA1200", "AM4"],
+      "max_tdp": "150W"
+    },
+    {
+      "name": "NZXT Kraken X63",
+      "type": "Liquid",
+      "radiator_size": "280mm",
+      "socket_compatibility": ["LGA1700", "AM4", "AM5"]
+    }
+  ],
+  "Storage": [
+    {
+      "name": "Samsung 990 Pro 1TB",
+      "type": "NVMe SSD",
+      "interface": "PCIe 4.0",
+      "capacity": "1TB"
+    },
+    {
+      "name": "Western Digital Black SN850X 2TB",
+      "type": "NVMe SSD",
+      "interface": "PCIe 4.0",
+      "capacity": "2TB"
+    },
+    {
+      "name": "Crucial P3 Plus 500GB",
+      "type": "NVMe SSD",
+      "interface": "PCIe 4.0",
+      "capacity": "500GB"
+    },
+    {
+      "name": "Seagate Barracuda 4TB",
+      "type": "HDD",
+      "interface": "SATA",
+      "capacity": "4TB"
+    },
+    {
+      "name": "Kingston A400 1TB",
+      "type": "SATA SSD",
+      "interface": "SATA",
+      "capacity": "1TB"
+    }
+  ],
+  "RAM": [
+    {
+      "name": "Corsair Vengeance RGB Pro 32GB",
+      "type": "DDR4",
+      "speed": "3600MHz",
+      "modules": "2x16GB"
+    },
+    {
+      "name": "G.Skill Trident Z5 RGB 32GB",
+      "type": "DDR5",
+      "speed": "6000MHz",
+      "modules": "2x16GB"
+    },
+    {
+      "name": "Crucial Ballistix 16GB",
+      "type": "DDR4",
+      "speed": "3200MHz",
+      "modules": "2x8GB"
+    },
+    {
+      "name": "Kingston Fury Beast 32GB",
+      "type": "DDR5",
+      "speed": "5600MHz",
+      "modules": "2x16GB"
+    },
+    {
+      "name": "Teamgroup T-Force Vulcan Z 16GB",
+      "type": "DDR4",
+      "speed": "3000MHz",
+      "modules": "2x8GB"
+    }
+  ]
+  }
