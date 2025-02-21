@@ -1,5 +1,5 @@
 {
-    "cpus": [
+    "CPU": [
       {
         "name": "Intel Core i9-13900K",
         "socket": "LGA 1700",
@@ -41,7 +41,7 @@
         "powerRequirement": 150
       }
     ],
-    "gpus": [
+    "GPU": [
       {
         "name": "NVIDIA RTX 4090",
         "pciInterface": "PCIe 4.0 x16",
@@ -78,7 +78,7 @@
         "psuConnector": "1x 8-pin"
       }
     ],
-    "motherboards": [
+    "Motherboard": [
       {
         "name": "ASUS ROG Strix Z790-E",
         "socket": "LGA 1700",
@@ -125,7 +125,7 @@
         "pciSlots": ["PCIe 4.0 x16"]
       }
     ],
-    "psus": [
+    "Power Supply": [
       {
         "name": "Corsair RM1000e",
         "wattage": 1000,
@@ -162,7 +162,7 @@
         "gpuCompatibility": ["GTX 1650"]
       }
     ],
-    "cases": [
+    "Case": [
       {
         "name": "Lian Li O11 Dynamic EVO",
         "size": "Mid Tower",
@@ -199,7 +199,7 @@
         "maxPsuLength": 250
       }
     ], 
-    "CPU_Coolers": [
+    "CPU Cooler": [
     {
       "name": "Noctua NH-D15",
       "type": "Air",
